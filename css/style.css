@@ -1,0 +1,94 @@
+body {
+     background-color: #772c8204 ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(25, 24, 24);
+}
+* {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+#Titulo_principal {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 10px;
+    height: 10%;
+    width: 100%;
+}
+label{
+    display: block;
+}
+form{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+ textarea {
+    width: 300px;
+    height: auto;
+    margin-bottom: 1%;
+}
+header {
+    font-size: 2em;
+    color: purple;
+}
+section > header{
+    font-size: 1.5em;
+    color: #835;
+}
+#id_Buttom_Enviar {
+    background-color: purple;
+    color: white;
+    font-size: 20x;
+    border-radius: 15px;
+    border-color: transparent;
+    height: 5%;
+    width: 50%;
+}
+
+input {
+    margin-bottom: 20px;
+}
+.organizaçao_lateral {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+a, a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px; 
+}
+a:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+#creditos{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#produtos {
+    color: #835;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+#cotainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}
+#row {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+img {
+    height: 350px;
+    width: 500px;
+    margin-left: 40%;
+    margin-bottom: 30px;
+    align-items: center;
+}
